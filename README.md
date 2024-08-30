@@ -1,4 +1,4 @@
-"# 📱 CRUD - AlphaCode
+# 📱 CRUD - AlphaCode
 
 Welcome to CRUD - AlphaCode! This project is a simple full-stack application, created as part of my journey towards securing an internship in software development. The goal is to demonstrate my understanding of key technologies and my ability to build functional web applications.
 
@@ -72,4 +72,4 @@ To get a local copy up and running, follow these simple steps.
 Matheus - matheusw.nochi@gmail.com - youremail@example.com
 
 Project Link: [https://github.com/MathWilliamNN/crud-alpha-code](https://github.com/MathWilliamNN/crud-alpha-code)
-"
+
