@@ -69,7 +69,7 @@ To get a local copy up and running, follow these simple steps.
 
 ## 💬 Contact
 
-Matheus - matheusw.nochi@gmail.com - youremail@example.com
+Matheus - matheusw.nochi@gmail.com 
 
 Project Link: [https://github.com/MathWilliamNN/crud-alpha-code](https://github.com/MathWilliamNN/crud-alpha-code)
 
