@@ -65,7 +65,7 @@ Para obter uma cópia local e rodar o projeto, siga estas etapas simples.
    - Inicie o Apache e o MySQL a partir do painel de controle do XAMPP.
    - Importe o arquivo SQL fornecido para configurar o banco de dados.
 
-## 🛠️ Usage
+## 🛠️ Uso
 
 - Visite \`http://localhost:3000\` para visualizar o frontend.
 - A API do backend está acessível via \`http://localhost/backend-api-endpoint\`.
@@ -76,6 +76,8 @@ Para obter uma cópia local e rodar o projeto, siga estas etapas simples.
 Matheus - matheusw.nochi@gmail.com 
 
 Link do Projeto: [https://github.com/MathWilliamNN/crud-alpha-code](https://github.com/MathWilliamNN/crud-alpha-code)
+
+
 
 
 ## 🇺🇸 English
