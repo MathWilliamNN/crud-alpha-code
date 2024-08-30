@@ -1,8 +1,6 @@
-# crud-alpha-code
+"# 📱 CRUD - AlphaCode
 
-# 📱 My Awesome Project
-
-Welcome to **My Awesome Project**! This project is a full-stack application that leverages modern web technologies to deliver a seamless experience.
+Welcome to CRUD - AlphaCode! This project is a simple full-stack application, created as part of my journey towards securing an internship in software development. The goal is to demonstrate my understanding of key technologies and my ability to build functional web applications.
 
 ## 🖥️ Frontend
 
@@ -10,14 +8,14 @@ The frontend of this project is built using:
 
 - **JavaScript** 🟨
 - **React** ⚛️
-  - Styled Components 💅
+  - Styled Components ✨
   - Context API 🗂️
 
 ### Key Features
 
-- **Responsive Design**: Looks great on any device!
 - **Component-Based Architecture**: Reusable and maintainable components.
 - **State Management**: Efficiently managed using the Context API.
+- **Data Persistence**: Ensured through consistent backend integration with MySQL.
 
 ## 🔧 Backend
 
@@ -29,7 +27,6 @@ The backend is powered by:
 ### Key Features
 
 - **XAMPP**: For local development and testing.
-- **RESTful API**: Seamless communication between frontend and backend.
 - **Database Integration**: MySQL is used to handle data storage and retrieval.
 
 ## 🚀 Getting Started
@@ -44,5 +41,35 @@ To get a local copy up and running, follow these simple steps.
 ### Installation
 
 1. **Clone the repository**:
-   ```bash
+   \`\`\`bash
    git clone https://github.com/yourusername/my-awesome-project.git
+   \`\`\`
+2. **Navigate to the project directory**:
+   \`\`\`bash
+   cd my-awesome-project
+   \`\`\`
+3. **Install frontend dependencies**:
+   \`\`\`bash
+   npm install
+   \`\`\`
+4. **Start the frontend**:
+   \`\`\`bash
+   npm start
+   \`\`\`
+5. **Set up the backend**:
+   - Place the backend files in your XAMPP \`htdocs\` directory.
+   - Start Apache and MySQL from the XAMPP control panel.
+   - Import the provided SQL file to set up the database.
+
+## 🛠️ Usage
+
+- Visit \`http://localhost:5173\` to view the frontend.
+- The backend API is accessible via \`http://localhost/backend-api-endpoint\`.
+
+
+## 💬 Contact
+
+Matheus - matheusw.nochi@gmail.com - youremail@example.com
+
+Project Link: [https://github.com/MathWilliamNN/crud-alpha-code](https://github.com/MathWilliamNN/crud-alpha-code)
+"
