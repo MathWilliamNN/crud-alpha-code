@@ -70,7 +70,6 @@ Para obter uma cópia local e rodar o projeto, siga estas etapas simples.
 - Visite \`http://localhost:3000\` para visualizar o frontend.
 - A API do backend está acessível via \`http://localhost/backend-api-endpoint\`.
 
-
 ## 💬 Contato
 
 Matheus - matheusw.nochi@gmail.com 
@@ -78,7 +77,8 @@ Matheus - matheusw.nochi@gmail.com
 Link do Projeto: [https://github.com/MathWilliamNN/crud-alpha-code](https://github.com/MathWilliamNN/crud-alpha-code)
 
 
-
+(---) 
+(---) 
 
 ## 🇺🇸 English
 
