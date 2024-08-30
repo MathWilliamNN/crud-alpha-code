@@ -42,11 +42,11 @@ To get a local copy up and running, follow these simple steps.
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/my-awesome-project.git
+   git clone https://github.com/MathWilliamNN/crud-alpha-code.git
    ```
 2. **Navigate to the project directory**:
    ```bash
-   cd my-awesome-project
+   cd crud-alpha-code
    ```
 3. **Install frontend dependencies**:
    ```bash
@@ -63,7 +63,7 @@ To get a local copy up and running, follow these simple steps.
 
 ## 🛠️ Usage
 
-- Visit \`http://localhost:5173\` to view the frontend.
+- Visit \`http://localhost:3000\` to view the frontend.
 - The backend API is accessible via \`http://localhost/backend-api-endpoint\`.
 
 
