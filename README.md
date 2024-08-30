@@ -41,21 +41,21 @@ To get a local copy up and running, follow these simple steps.
 ### Installation
 
 1. **Clone the repository**:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/my-awesome-project.git
-   \`\`\`
+   ```
 2. **Navigate to the project directory**:
-   \`\`\`bash
+   ```bash
    cd my-awesome-project
-   \`\`\`
+   ```
 3. **Install frontend dependencies**:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 4. **Start the frontend**:
-   \`\`\`bash
+   ```bash
    npm start
-   \`\`\`
+   ```
 5. **Set up the backend**:
    - Place the backend files in your XAMPP \`htdocs\` directory.
    - Start Apache and MySQL from the XAMPP control panel.
