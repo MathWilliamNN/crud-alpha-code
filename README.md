@@ -78,7 +78,6 @@ Link do Projeto: [https://github.com/MathWilliamNN/crud-alpha-code](https://gith
 
 
 ---
----
 
 ## 🇺🇸 English
 
