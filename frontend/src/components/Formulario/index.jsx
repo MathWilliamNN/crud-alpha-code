@@ -148,14 +148,14 @@ const Formulario = () => {
                 notificacoesEmail: novoContato.notificacoesEmail ? "true" : "false",
                 notificacoesSms: novoContato.notificacoesSms ? "true" : "false",
             };
-            // console.log("Payload enviado edit:", JSON.stringify(payload, null, 2))
+
 
 
             fetch("http://127.0.0.1/main/server.php",
                 {
                     method: "PUT",
                     headers: {
-                        "Content-Type": "application/json" // Adiciona o cabeçalho Content-Type
+                        "Content-Type": "application/json"
                     },
                     body: JSON.stringify(payload)
                 })
@@ -180,13 +180,8 @@ const Formulario = () => {
                 notificacoesSms: novoContato.notificacoesSms ? "true" : "false",
             };
 
-            // console.log("Payload enviado create:", JSON.stringify(payload, null, 2))
-
-            // console.log("novo contato:", JSON.stringify(novoContato, null, 2));
-
             setContatos(prevContatos => [...prevContatos, novoContato]);
 
-            // console.log("contato apos set", JSON.stringify(contatos, null, 2));
 
             
 
