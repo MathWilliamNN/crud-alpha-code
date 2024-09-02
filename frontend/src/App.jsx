@@ -4,6 +4,8 @@ import DadosCadastrados from './components/DadosCadastrados'
 import Formulario from './components/Formulario'
 import Rodape from './components/Rodape'
 
+document.title = "Cadastro de contatos";
+
 function App() {
 
 

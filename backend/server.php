@@ -7,6 +7,8 @@ header("Access-Control-Allow-Headers: Content-Type, Authorization");
 header("Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT");
 header("Content-Type: application/json");
 
+$tabelaDeDados = "dadoscadastrados"
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
@@ -25,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $notificacoesEmail = $data['notificacoesEmail'];
     $notificacoesSms = $data['notificacoesSms'];
 
-    $stmt = $mysqli->prepare("INSERT INTO dadoscadastrados (id, nome, dataNascimento, telefone, profissao, email, celular, whatsapp, notificacoesEmail, notificacoesSms) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+    $stmt = $mysqli->prepare("INSERT INTO $tabelaDeDados (id, nome, dataNascimento, telefone, profissao, email, celular, whatsapp, notificacoesEmail, notificacoesSms) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
     $stmt->bind_param("ssssssssss", $id, $nome, $dataNascimento, $telefone, $profissao, $email, $celular, $whatsapp, $notificacoesEmail, $notificacoesSms);
     $stmt->execute();
     
@@ -43,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
     $data = json_decode($input, true);
     $id = $data['id'];
     
-    $stmt = $mysqli->prepare("DELETE FROM dadoscadastrados WHERE id = ?");
+    $stmt = $mysqli->prepare("DELETE FROM $tabelaDeDados WHERE id = ?");
     $stmt->bind_param("s", $id);
     $stmt->execute();
     if ($stmt->affected_rows > 0) {
@@ -71,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'PUT') {
     $notificacoesEmail = $data['notificacoesEmail'];
     $notificacoesSms = $data['notificacoesSms'];
 
-    $stmt = $mysqli->prepare("UPDATE dadoscadastrados SET nome = ?, dataNascimento = ?, telefone = ?, profissao = ?, email = ?, celular = ?, whatsapp = ?, notificacoesEmail = ?, notificacoesSms = ? WHERE id = ?");
+    $stmt = $mysqli->prepare("UPDATE $tabelaDeDados SET nome = ?, dataNascimento = ?, telefone = ?, profissao = ?, email = ?, celular = ?, whatsapp = ?, notificacoesEmail = ?, notificacoesSms = ? WHERE id = ?");
     $stmt->bind_param("ssssssssss", $nome, $dataNascimento, $telefone, $profissao, $email, $celular, $whatsapp, $notificacoesEmail, $notificacoesSms, $id);
     $stmt->execute();
     
@@ -87,7 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 
     $input = file_get_contents('php://input');
 
-    $stmt = $mysqli->prepare("SELECT * FROM dadoscadastrados");
+    $stmt = $mysqli->prepare("SELECT * FROM $tabelaDeDados");
     $stmt->execute();
 
     $result = $stmt->get_result();

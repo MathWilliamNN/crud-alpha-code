@@ -46,14 +46,14 @@ const DadosCadastrados = () => {
     const { contatos, setContatos, setEditMode, setEditContato } = useContext(ContatoContext);
 
     const aoDeletar = (id) => {
-        console.log("delete id:" + id)
+        // console.log("delete id:" + id)
         setContatos(prevContatos => prevContatos.filter(contato => contato.id !== id))
 
         var payload = {
             id: id
         };
 
-        console.log("payload delete:", JSON.stringify(payload, null, 2))
+        // console.log("payload delete:", JSON.stringify(payload, null, 2))
 
         fetch("http://127.0.0.1/main/server.php",
             {
@@ -81,7 +81,7 @@ const DadosCadastrados = () => {
         })
             .then(res => res.json())
             .then(data => {
-                data.map((data )=> (console.log("data id:" + data.id)))
+                // data.map((data )=> (console.log("data id:" + data.id)))
                 if (Array.isArray(data) && data.length > 0) {
                     setContatos(data);
                 } else {
