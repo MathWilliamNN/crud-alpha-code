@@ -64,6 +64,7 @@ Para obter uma cópia local e rodar o projeto, siga estas etapas simples.
    - Coloque os arquivos do backend no diretório \`htdocs\` do XAMPP.
    - Inicie o Apache e o MySQL a partir do painel de controle do XAMPP.
    - Importe o arquivo SQL fornecido para configurar o banco de dados.
+   - Crie a tabela de dados utilizando o comando no arquivo .sql (o nome padrao da tabela é "dadoscadastrados", e pode ser alterado no arquivo server.php)
 
 ## 🛠️ Uso
 
@@ -141,6 +142,7 @@ To get a local copy up and running, follow these simple steps.
    - Place the backend files in your XAMPP \`htdocs\` directory.
    - Start Apache and MySQL from the XAMPP control panel.
    - Import the provided SQL file to set up the database.
+   - Create the data table using the command in the .sql file (the default table name is "dadoscadastrados", but it can be changed in the server.php file)
 
 ## 🛠️ Usage
 
